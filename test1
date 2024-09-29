@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <h1>BEDROK</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <div class="search">
+                <input type="text">
+            </div>
+            <button>Subscribe</button>
+        </div>
+
+    </nav>
+        <div class="hero">
+            <div class="aa">
+            <h5>ABOUT ME</h5>
+            <h1>Hey, I’m Isaiah</h1>
+            </div>
+        </div>
+        <div class="story">
+            <h1>My Story</h1>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Dolor sint fugiat non beatae delectus nostrum, illum <br>quisquam facilis. Illo enim laborum consequatur quae <br>inventore magni provident ducimus vitae velit assumenda.</h5>
+            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Dolor sint fugiat non beatae delectus nostrum, illum <br>quisquam facilis. Illo enim laborum consequatur quae <br>inventore magni provident ducimus vitae velit assumenda.</h5>
+        </div>
+        <div class="end">
+            <h1>A monthly post delivered <br>straight to your inbox</h1>
+        </div>
+        <div class="enda">
+            <div class="and">
+                <input type="email" placeholder="Enter your email">
+                <button class="as">Submit</button>
+            </div>
+        </div>
+        <div class="foot">
+            <h1>Bedrok</h1>
+            <h5>CATEGORIES <br>
+                Entrepreneurship<br>
+                Creator<br>
+                Tech<br>
+                All</h5>
+            <h5>Pages <br>
+                Home<br>
+                About<br>
+                Subscribe<br>
+            </h5>
+            <h5>Contact <br>
+                Twitter<br>
+                Linkedln<br>
+                Email me<br>
+            </h5>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    width: 135px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 24px solid gray; 
+}
+
+.hero{
+    width: 1000px;
+    height: 403px;
+    background-image: url('/Rectangle\ 5.png');
+    color: white;
+    margin-top: 73px;
+    display: flex;
+    align-items: end;
+    font-size: 32px;
+}
+
+.story{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 1525px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.as{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.enda{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 1525px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.and{
+    display: flex;
+    gap: 24px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
